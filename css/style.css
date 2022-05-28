@@ -1,0 +1,243 @@
+*, *:after, :before {
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: #fff;
+  text-decoration: none;
+  color: #000;
+  border: none;
+  border-radius: 7px;
+  padding: 15px 70px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.button_light {
+  background-color: #fff;
+}
+.button_dark {
+  background-color: #FFC0CB;
+  color: #fff;
+}
+.button_black {
+  background-color: #000;
+  color: #fff;
+  display: block;
+  width: 100%;
+}
+.button__gl {
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-size: 20px;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+.header {
+  background: #e6e6e6 url("../img/tlo.jpg") center no-repeat;
+  background-size: cover;
+  min-height: 660px;
+  padding: 10px 0;
+  color: #ffffff;
+}
+.header-top {
+  margin-bottom: 50px;
+}
+.header-phone {
+  text-align: right;
+}
+.header-phone__number {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+.header-title {
+  font-family: "Lobster Two", cursive;
+  font-weight: 900;
+  font-size: 65px;
+}
+.header__descriptione {
+  font-size: 40px;
+  font-family: "Lobster Two", cursive;
+}
+.header__triggers {
+  margin-bottom: 55px;
+  text-transform: uppercase;
+  font-size: 23px;
+  text-align: center;
+}
+.header__text {
+  margin-bottom: 10px;
+}
+.header__image {
+  height: 50px;
+  width: 50px;
+  margin: 15px auto 13px;
+  color: #ffffff;
+}
+
+.sectione {
+  padding: 90px 0;
+}
+.sectione-title {
+  font-size: 30px;
+}
+.sectione__title {
+  margin-bottom: 100px;
+}
+
+.product-card {
+  text-align: center;
+  padding: 40px;
+  box-shadow: 0 1px 4px rgba(51, 51, 51, 0.16);
+  border-radius: 7px;
+}
+.product-card__button {
+  display: block;
+  width: 100%;
+}
+.product__card {
+  margin-bottom: 34px;
+}
+
+.extra-card {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 7px;
+  text-align: center;
+}
+.extra-card__title {
+  font-size: 24px;
+  margin: 20px auto;
+}
+.extra-card__image {
+  margin: 20px 0 20px 20px;
+  align-items: centr;
+}
+
+.about {
+  background: #e6e6e6 url("../img/about2.jpg") center no-repeat;
+  background-size: cover;
+  min-width: 300px;
+  color: #000;
+}
+.about-descriptione {
+  font-size: 20px;
+  line-height: 28px;
+  border-left: 5px #FFC0CB solid;
+}
+.about-title {
+  text-transform: uppercase;
+}
+
+.contacts-address {
+  margin: 25px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.contacts-address-col {
+  width: 25%;
+}
+.contacts-address-col__img {
+  width: 50px;
+  height: 50px;
+}
+.contacts__number {
+  color: #000;
+  text-transform: uppercase;
+}
+
+.footer {
+  font-size: 22px;
+  padding: 25px 0;
+  background-color: #FFC0CB;
+}
+.footer__policy-link {
+  text-align: center;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+.footer-developer {
+  text-align: right;
+  display: block;
+  color: #ffffff;
+}
+.footer-developer__link {
+  color: #000000;
+  font-size: 22px;
+}
+
+@media (max-width: 1190px) {
+  .product-card__text {
+    min-height: 70px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+  .footer-developer {
+    text-align: center;
+  }
+  .footer__logo {
+    margin-bottom: 20px;
+  }
+  .footer__policy-link {
+    margin-bottom: 20px;
+  }
+  .footer-developer__link {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .header-triggers {
+    margin-bottom: 20px;
+  }
+
+  .contacts__number {
+    font-size: 13px;
+  }
+}
+@media (max-width: 375px) {
+  .col-sm-6 {
+    text-align: center;
+  }
+
+  .header-title {
+    margin-top: -30px;
+  }
+  .header__logo {
+    margin-bottom: 20px;
+  }
+  .header-phone__number {
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+
+  .contacts-address-col {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .contacts__number {
+    font-size: 10px;
+  }
+
+  .about-text {
+    text-align: right;
+  }
+}/*# sourceMappingURL=style.css.map */
